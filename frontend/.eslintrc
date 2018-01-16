@@ -3,7 +3,8 @@
   "extends": "airbnb",
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "browser": true
   },
   "rules": {
     "semi": ["error", "always"],

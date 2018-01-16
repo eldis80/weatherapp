@@ -6,9 +6,41 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+	font-size: 5vmin;
+	white-space: nowrap;
+}
+
+div {
+	display: inherit;
+	flex-direction: inherit;
+	align-items: inherit;
+}
+
+img {
+	width: 100%;
 }
 
 .icon {
-  width: 30vw;
-  height: 30vw;
+    width: 30vw;
+}
+
+.forecasts {
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90vw;
+	align-items: baseline;
+}
+
+.forecastbundle {
+	width: 18%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.forecasttime {
+	font-size: 2.5vw;
 }
